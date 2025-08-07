@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>First Bike Ride</title>
+  <link rel="stylesheet" href="../style.css" />
+</head>
+<body>
+  <header>
+    <h1>First Bike Ride</h1>
+    <nav>
+      <ul>
+        <li><a href="../index.html">Home</a></li>
+        <li><a href="walking.html">Walking</a></li>
+        <li><a href="running.html">Running</a></li>
+        <li><a href="cycling.html">Cycling</a></li>
+        <li><a href="../gallery.html">Gallery</a></li>
+      </ul>
+    </nav>
+  </header>
+  <main>
+    <article>
+      <p>
+        With helmets on and training wheels ready, the twins pedaled down the
+        sidewalk for the first time. The breeze in their faces and the thrill of
+        movement made this day unforgettable.
+      </p>
+    </article>
+  </main>
+  <footer>
+    <p>&copy; <span id="year"></span> Twins Journey</p>
+  </footer>
+  <script>
+    document.getElementById("year").textContent = new Date().getFullYear();
+  </script>
+</body>
+</html>
+

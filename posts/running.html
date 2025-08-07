@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>First Run</title>
+  <link rel="stylesheet" href="../style.css" />
+</head>
+<body>
+  <header>
+    <h1>First Run</h1>
+    <nav>
+      <ul>
+        <li><a href="../index.html">Home</a></li>
+        <li><a href="walking.html">Walking</a></li>
+        <li><a href="running.html">Running</a></li>
+        <li><a href="cycling.html">Cycling</a></li>
+        <li><a href="../gallery.html">Gallery</a></li>
+      </ul>
+    </nav>
+  </header>
+  <main>
+    <article>
+      <p>
+        It feels like just yesterday they were learning to stand, and now they
+        are running across the park with boundless energy. Their laughter echoed
+        as they raced each other.
+      </p>
+    </article>
+  </main>
+  <footer>
+    <p>&copy; <span id="year"></span> Twins Journey</p>
+  </footer>
+  <script>
+    document.getElementById("year").textContent = new Date().getFullYear();
+  </script>
+</body>
+</html>
+
