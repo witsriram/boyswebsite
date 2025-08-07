@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Twins Journey</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <header>
+    <h1>Journey of Our Twin Boys</h1>
+    <nav>
+      <ul>
+        <li><a href="index.html">Home</a></li>
+        <li><a href="posts/walking.html">Walking</a></li>
+        <li><a href="posts/running.html">Running</a></li>
+        <li><a href="posts/cycling.html">Cycling</a></li>
+        <li><a href="gallery.html">Gallery</a></li>
+      </ul>
+    </nav>
+  </header>
+  <main>
+    <section>
+      <h2>Welcome</h2>
+      <p>
+        This site captures the adventures of our twin boys. Follow along as we
+        share stories of their first steps, first run, and first bike ride. You
+        can also browse photos of their growth in the yearly gallery.
+      </p>
+    </section>
+  </main>
+  <footer>
+    <p>&copy; <span id="year"></span> Twins Journey</p>
+  </footer>
+  <script>
+    document.getElementById("year").textContent = new Date().getFullYear();
+  </script>
+</body>
+</html>
+

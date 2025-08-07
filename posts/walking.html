@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>First Steps</title>
+  <link rel="stylesheet" href="../style.css" />
+</head>
+<body>
+  <header>
+    <h1>First Steps</h1>
+    <nav>
+      <ul>
+        <li><a href="../index.html">Home</a></li>
+        <li><a href="walking.html">Walking</a></li>
+        <li><a href="running.html">Running</a></li>
+        <li><a href="cycling.html">Cycling</a></li>
+        <li><a href="../gallery.html">Gallery</a></li>
+      </ul>
+    </nav>
+  </header>
+  <main>
+    <article>
+      <p>
+        Today our twins took their very first steps. Watching them wobble and
+        balance filled us with excitement and pride. Their smiles lit up the
+        room as they realized they could move on their own.
+      </p>
+    </article>
+  </main>
+  <footer>
+    <p>&copy; <span id="year"></span> Twins Journey</p>
+  </footer>
+  <script>
+    document.getElementById("year").textContent = new Date().getFullYear();
+  </script>
+</body>
+</html>
+
