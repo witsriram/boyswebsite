@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Milestone Posts</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <header>
+    <h1>Milestone Posts</h1>
+    <nav>
+      <ul>
+        <li><a href="index.html">Home</a></li>
+        <li><a href="posts.html">Posts</a></li>
+        <li><a href="gallery.html">Gallery</a></li>
+      </ul>
+    </nav>
+    <button id="theme-toggle">Toggle Theme</button>
+  </header>
+  <main>
+    <section id="posts"></section>
+    <section id="new-post">
+      <h2>Add New Post</h2>
+      <form id="post-form">
+        <input type="text" id="title" placeholder="Title" required />
+        <textarea id="content" placeholder="Content" required></textarea>
+        <input type="date" id="date" />
+        <button type="submit">Add Post</button>
+      </form>
+    </section>
+  </main>
+  <footer>
+    <p>&copy; <span id="year"></span> Twins Journey</p>
+  </footer>
+  <script src="theme.js"></script>
+  <script src="posts.js"></script>
+  <script>
+    document.getElementById('year').textContent = new Date().getFullYear();
+  </script>
+</body>
+</html>
